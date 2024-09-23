@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.player {
+    text-align: center;
+    margin: 0 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.player img {
+    width: 100px;
+    height: 100px;
+  
+}
+
+.player .name {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.player .score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score-divider {
+    font-size: 36px;
+    margin: 0 30px;
+    
+}
