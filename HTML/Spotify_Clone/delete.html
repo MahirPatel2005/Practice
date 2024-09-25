@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-theMusicApp</title>
+    <style>
+        body{
+            background-color: #202020;
+            width: 100%;
+        }
+        .sidebar{
+            background-color: black;
+            width: 20%;
+            margin-left: -8px;
+            margin-top: -635px;
+            position: fixed;
+        }
+        .logo{
+            transform: scale(0.5);
+            margin-left: -100px;
+            margin-top: -20px;
+        }
+        .navigator1{
+            display: flex;
+            flex-direction: column;
+        }
+        .navigator2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        .navigator3{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+        }
+        h3{
+            margin-top: -10px;
+       }
+        .indi1{
+            display: flex;
+            flex-direction: row;
+        }
+        .image{
+            transform: scale(0.2);
+            height: 3px;
+        }
+        .text{
+            color: white;
+            margin-top: 10px;
+            margin-left: -10px;
+            font-size: 20px;
+        }
+        .indi2{
+            display: flex;
+            flex-direction: row;
+        }
+        .image2{
+            transform: scale(0.2);
+            height: 3px;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        .text2{
+            color: white;
+            margin-left: -35px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .image3{
+            margin-top: 15px;
+            margin-left: 1px;
+        }
+        .text3{
+            color: white;
+            margin-left: 35px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .image4{
+            transform: scale(0.35);
+            margin-left: -35px;
+            height: 20px;
+        }
+        .image5{
+            transform: scale(1.2);
+            margin-left: -px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        .text4{
+            color: white;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .text5{
+            color: white;
+            margin-top: 20px;
+            margin-left: 35px;
+            font-size: 20px;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 500px;
+
+        }
+        .buttons{
+            transform: scale(0.2);
+            margin-left: 250px;
+            margin-top: -30px;
+        }
+        .user{
+            transform: scale(0.4) ;
+        }
+        h1{
+            color: white;
+            margin-left: 380px;
+        }
+        .real{
+            display: flex;
+            flex-direction: column;
+            margin-left: 380px;
+        }
+        .played{
+            display: flex;
+            flex-direction: row;
+            gap: 70px;
+        }
+        .s1{
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+        }
+        .i1{
+            width: 300px;
+            background-color: #303030;
+        }
+        .t1{
+            color: white;
+            font-size: 20px;
+            margin-top: 30px    ;
+            margin-left: -250px;
+        }
+        .s2{
+            display: flex;
+            flex-direction: row;
+            gap: 110px;
+        }
+        h2{
+            color: white;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+        .good{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .song1{
+            display: flex;
+            flex-direction: column;
+        }
+        .ig1{
+            background-color:black;
+        }
+        .txt1{
+            color: white;
+            font-size: larger;
+        }
+        .txt2{
+            color: grey;
+            font-weight: lighter;
+        }
+        .playopt{
+            display: flex;
+            flex-direction: row;
+            background-color: #181818;
+        }
+        .right{
+            display: flex;
+            flex-direction: row;
+        }
+        .p{
+            margin-left: 330px;
+            transform: scale(0.8);
+        }
+        .name{
+            color: white;
+            margin-top: 50px;
+        }
+        .singer{
+            color: gray;
+            margin-top: 65px;
+            margin-left: -90px;
+        }
+        .heart{
+            transform: scale(0.2);
+            margin-top: -20px;
+            margin-left: -10px;
+        }
+        .player{
+            transform: scale(0.2);
+            margin-left: -320px;
+        }
+        .left{
+            transform: scale(0.2);
+            margin-left: -600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="buttons"><img src="top arrow navigation.png" alt=""></div>
+            <div class="user"><img src="User.png" alt=""></div>
+        </div>
+        <H1>Good Morning</H1>
+        <div class="real">
+            <div class="played">
+                <div class="s1">
+                    <div class="i1"><img src="Liked.png" alt=""></div>
+                    <div class="t1">Liked Songs</div>
+                    <div class="i1"><img src="image4.png" alt=""></div>
+                    <div class="t1">Neffex Playlist</div>
+                </div>
+                <div class="s2">
+                    <div class="i1"><img src="image3.png" alt=""></div>
+                    <div class="t1">K/DA</div>
+                    <div class="i1"><img src="image1.png" alt=""></div>
+                    <div class="t1">Liked Songs</div>
+                </div>
+            </div>
+            <h2>Shows You might like</h2>
+            <div class="good">
+                <div class="song1">
+                    <div class="ig1"><img src="image9.png" alt=""></div>
+                    <div class="txt1">Weekly Motivatio..</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>
+                <div class="song1">
+                    <div class="ig1"><img src="image8.png" alt=""></div>
+                    <div class="txt1">Meditation Self</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>  
+                <div class="song1">
+                    <div class="ig1"><img src="image7.png" alt=""></div>
+                    <div class="txt1">Words beyond act..</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>
+                <div class="song1">
+                    <div class="ig1"><img src="image6.png" alt=""></div>
+                    <div class="txt1">The Alexa Show</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>
+                <div class="song1">
+                    <div class="ig1"><img src="image5.png" alt=""></div>
+                    <div class="txt1">The stories of Ma..</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>
+                <div class="song1">
+                    <div class="ig1"><img src="image10.png" alt=""></div>
+                    <div class="txt1">Motivation Daily b..</div>
+                    <div class="txt2">Lorem, ipsum dolor.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <div class="logo">
+                <img src="Spotify logo.png" alt="">
+            </div>
+            <div class="navigator1">
+                <div class="indi1">
+                    <div class="image"><img src="Home.png" alt=""></div>
+                    <div class="text">Home</div>
+                </div>
+                <div class="indi2">
+                    <div class="image2"><img src="Search.png" alt=""></div>
+                    <div class="text2">Search</div>
+                </div>
+                <div class="indi2">
+                    <div class="image2"><img src="Your library.png" alt=""></div>
+                    <div class="text2">Your_Library</div>
+                </div>
+            </div>
+            <div class="navigator2">
+                <div class="indi2">
+                    <div class="image3"><img src="Create.png" alt=""></div>
+                    <div class="text3">Create Playlist</div>
+                </div>
+                <div class="indi2">
+                    <div class="image4"><img src="Liked.png" alt=""></div>
+                    <div class="text4">Liked Songs</div>
+                </div>
+                <div class="indi2">
+                    <div class="image5"><img src="your episodes.png" alt=""></div>
+                    <div class="text5">Your Episodes</div>
+                </div>
+            </div>
+            <div class="navigator3">
+                <h3></h3>
+                <h3></h3>
+                <h3></h3>
+                <h4>FAV</h4>
+                <h3>Daily Mix1</h3>
+                <h3>Discover Weekly</h3>
+                <h3>Malayalam</h3>
+                <h3>Daance/ElectronixMix</h3>
+                <h3>EDM/Popular</h3>
+                <h4>Install App<h4>
+            </div>
+        </div>
+    </div>
+    <div class="playopt">
+        <div class="right">
+            <div class="p"><img src="image11.png" alt=""></div>
+            <div class="name">Dreammingon</div>
+            <div class="singer">neffex</div>
+            <div class="heart"><img src="bx_bxs-heart.png" alt=""></div>
+        </div>
+        <div class="center">
+            <div class="player"><img src="Music Player Options.png" alt=""></div>
+        </div>
+        <div class="left">
+            <div class="opt"><img src="Right options.png" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>
