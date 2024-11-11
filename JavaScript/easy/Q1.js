@@ -10,5 +10,5 @@ if(score<100 && score>=90){
 }else if (score<60 && score>=0){
     console.log("grade : F")
 }else{
-    console.log("invalid Input")
+    console.log("invalid input a")
 }
